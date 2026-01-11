@@ -1,26 +1,26 @@
 class C4 < Formula
   desc "C4 architecture visualization tool"
   homepage "https://github.com/panbanda/c4"
-  version "0.1.5"
+  version "0.1.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/c4/releases/download/c4-v0.1.5/c4_0.1.5_aarch64-apple-darwin.tar.gz"
-      sha256 "56d702fe2cb21d5c88667b3877f2bacef4d40e5831d766ec26ca5fce3f11458e"
+      url "https://github.com/panbanda/c4/releases/download/c4-v0.1.6/c4_0.1.6_aarch64-apple-darwin.tar.gz"
+      sha256 "fb997a1830c0f4b230d98e126867962d913352c0319fa832f3cd66a9bf906eed"
     else
-      url "https://github.com/panbanda/c4/releases/download/c4-v0.1.5/c4_0.1.5_x86_64-apple-darwin.tar.gz"
-      sha256 "ded580eb3627b462e1fb4ad7983ed0c2ef92dc0e8c44456292773bb7c93188f5"
+      url "https://github.com/panbanda/c4/releases/download/c4-v0.1.6/c4_0.1.6_x86_64-apple-darwin.tar.gz"
+      sha256 "957e9a38c58e012a92c7ffa517f673150842bb9bae1de34ac48e2e64a32942b7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/panbanda/c4/releases/download/c4-v0.1.5/c4_0.1.5_aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "9a39c17d15c80af5e852cd23f9bff10195059bd2d56de0320e9bcc3aa433f022"
+      url "https://github.com/panbanda/c4/releases/download/c4-v0.1.6/c4_0.1.6_aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "39b9c53bcd1dd609b8e5d19e632f60b905395fe87d61a734d444e2a7414d302f"
     else
-      url "https://github.com/panbanda/c4/releases/download/c4-v0.1.5/c4_0.1.5_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0f427811b19f1805d56e6b60ec5bd2f3dd5b79036b4b4674e8cbd3c8049abe3b"
+      url "https://github.com/panbanda/c4/releases/download/c4-v0.1.6/c4_0.1.6_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6b597fb4ca30a0ecbf93aa22d59d3b308073bdf9e694fdc10b481cd6abd93b58"
     end
   end
 
